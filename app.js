@@ -25,6 +25,10 @@ square.forEach(id => {
             result = result + 1
             score.textContent = result
         }
+        else{
+            result = result -1
+            score.textContent = result
+        }
     })
 } )
 
